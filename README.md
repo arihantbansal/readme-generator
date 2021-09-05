@@ -1,9 +1,9 @@
-# Welcome to hi 👋
 
+# Welcome to README Generator CLI 👋
+		
 ## Description
-
-hi
+Test project made to understand Inquirer
 
 ## Install
-
-`hi`
+`npm i`
+		
