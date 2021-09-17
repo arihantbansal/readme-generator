@@ -4,7 +4,7 @@
 ## 📖 Description
 Welcome to the README Generator! This is a test project made to understand Inquirer!
 
-## ✨ Running the Application
+## ✨ Using the Application
 
 ### 📌 Installation
 Navigate to the root directory and use `npm i` to install all the relevant dependancies.
