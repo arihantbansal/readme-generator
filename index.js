@@ -18,6 +18,11 @@ inquirer
 			name: "installation",
 			message: "📦 What are the installation instructions?",
 		},
+		{
+			type: "input",
+			name: "running",
+			message: "📦 What are the instructions to run your project?",
+		}
 	])
 	.then(answers => {
 		const readme = `
@@ -26,8 +31,13 @@ inquirer
 ## Description
 ${answers.description}
 
-## Install
+## Using the project
+
+### Installation
 \`${answers.installation}\`
+
+### Running
+\`${answers.running}\`
 		`;
 
 		fs.writeFile("README.md", readme, err => {
